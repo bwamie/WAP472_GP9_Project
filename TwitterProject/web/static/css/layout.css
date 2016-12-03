@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2016, 10:41:34 AM
+    Author     : bwamie
+*/
+
+@media only screen and (min-width: 601px) {
+
+    header{
+        text-align: center;
+        width: 100%;
+        overflow: auto;
+        border-top: solid 2px #efefef;
+        border-bottom: solid 2px #00BFFF;
+        font-size: 22px;
+    }
+
+    header span{
+        margin: 10px;
+    }
+
+
+    header #leftfloat{
+        float: left;
+    }
+
+    header>div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    header #rightfloat{
+        float: right;
+    }
+
+    .clearright{
+        clear: right;
+    }
+
+    header hr{
+        border-bottom: dotted thin lightsteelblue;
+        border-top: solid 0px transparent;
+    }
+
+    .contentmenu ul > li{
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .contentmenu h3{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .contentmenu ul li a{
+        padding: 10px;
+    }
+
+    #content .banner p{
+        font-size: 28px;
+        left: 0;
+        position:absolute;
+        top: 40%;
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contentmenu ul > li{
+        display: inline;
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header{
+        text-align: center;
+    }
+    
+    #maincontent{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .contentmenu{
+        width: 100%;
+        border-top: solid 2px #e6e1ee;
+
+    }
+    .contentmenu ul > li{
+        margin: 0px 0px;
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+    }
+
+    .contentmenu ul li a{
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+
+    }
+    .banner{
+        display: none;
+    }
+    
+    header div{
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .contentmenu ul li:hover{
+    color: #2E9AFE;
+    font-style: italic;
+}
+}
+
+body{    
+    margin: 0px;
+    font-family: monospace;
+    font: monospace , cursive , sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header span.htittle{
+    font-weight: bold;
+}
+
+header h1{
+    color: darkblue;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+
+#content{
+    width: 100%;
+
+}
+
+#content .banner{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    position:relative;
+}
+
+#content .banner img{
+    width: 100%; 
+}
+
+
+
+#content .banner p span{
+    border: solid 1px #000;
+    padding: 10px;
+}
+
+.contentmenu{
+    border-bottom: solid 1px #efefef;
+    margin-bottom: 20px;
+}
+
+
+.contentmenu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contentmenu ul li a:hover{
+    color: #2E9AFE;
+    font-style: italic;
+}
+
+footer {
+    font-family: monospace;
+    font-size: 14px;
+    color : white;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    text-align: center;
+    height: 5%;
+}
+
+footer p{
+    font-size: 14px;
+    color: #fff;
+}
+.contentbody{
+    position: relative;
+    display: inline;
+}
+.contentbody>.tweet{
+    width: 270px;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right:5px;
+    margin-bottom:20px;
+    margin-left: 5px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+.contentbody>.tweet img{
+    width: 30%;
+    border: solid thin transparent;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+
+.contentbody>.tweet a{
+    color: black;
+}
+
+.contentbody>.tweet a:hover{
+    font-style: italic;
+    color: blue;
+}
+
+.selectedTag{
+    background: grey;
+    color: white;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+#tweet{
+    background: whitesmoke;
+    padding-top: 10px;
+}
+#tweet > div{
+    border-bottom: 0.5px solid #e6e1ee ;
+}
+
+.contentmenu ul > li > a{
+    color: black;
+    font-family: monospace;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contentmenu ul > li > a:hover{
+    background: grey;
+    color: white;
+}
+
+
+.topmenu:hover{
+    color: #00BFFF;
+    font-style: italic;
+}
+
+.trendslist li{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
